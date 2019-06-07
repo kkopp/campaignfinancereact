@@ -1,7 +1,21 @@
 const db = require("../models");
 
-// Defining methods for the booksController
+// Defining methods for the contribController
 module.exports = {
+  findMayorBigContrib2019: function(req, res) {
+    db.Contrib
+    .find({ "race": /.*Mayor.*/i, "date": /^2019.*/i, "amount": { $gt: NumberDecimal("499.0") } })
+      .sort({ amount: -1 })
+      .then(dbModel => res.json(dbModel))
+      .catch(err => res.status(422).json(err));
+  },
+  findMayorBigContrib2019ByOcc: function(req, res) {
+    db.Contrib
+    .find({ "race": /.*Mayor.*/i, "date": /^2019.*/i, "amount": { $gt: NumberDecimal("499.0") } })
+      .sort({ occupation: -1 })
+      .then(dbModel => res.json(dbModel))
+      .catch(err => res.status(422).json(err));
+  },
   findAll: function(req, res) {
     db.Contrib
       .find(req.query)
