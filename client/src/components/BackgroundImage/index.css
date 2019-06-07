@@ -1,0 +1,10 @@
+body, html {
+    height: 100%;
+    }
+    .bg {
+    background-image: url("./Images/denver-2228783_1920.jpg");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
