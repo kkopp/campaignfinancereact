@@ -8,3 +8,17 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     }
+    .bg2 {
+    background-image: url("./Images/denver-1629600_1920.jpg");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .bg3 {
+    background-image: url("./Images/denver-1676475_1920.jpg");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
