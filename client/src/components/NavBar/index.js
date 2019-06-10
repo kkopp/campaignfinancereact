@@ -8,7 +8,6 @@ import {
 	MDBCollapse,
 	MDBNavItem,
 	MDBNavLink,
-	MDBIcon
 } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -16,7 +15,8 @@ class NavBar extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			collapse: false
+			collapse: false,
+			isWideEnough: false
 		};
 		this.onClick = this.onClick.bind(this);
 	}
@@ -29,21 +29,20 @@ class NavBar extends React.Component {
 
 	render() {
 		const bgBlue = { backgroundColor: '#305796' };
-		const container = { height: 200 };
+		const container = { height: 50 };
 		return (
 			<div>
 				<Router>
 					<header>
+						<MDBContainer style={container}>
 						<MDBNavbar style={bgBlue} dark expand="md" scrolling fixed="top">
 							<MDBNavbarBrand href="/">
 								<strong>Denver Campaign Finance Data</strong>
 							</MDBNavbarBrand>
 							<MDBNavbarToggler onClick={this.onClick} />
 							<MDBCollapse isOpen={this.state.collapse} navbar>
-								{/* <MDBNavbarNav left>
-								</MDBNavbarNav> */}
 								<MDBNavbarNav right>
-                <MDBNavItem active>
+									<MDBNavItem active>
 										<MDBNavLink to="#">Home</MDBNavLink>
 									</MDBNavItem>
 									<MDBNavItem>
@@ -55,15 +54,8 @@ class NavBar extends React.Component {
 								</MDBNavbarNav>
 							</MDBCollapse>
 						</MDBNavbar>
+						</MDBContainer>
 					</header>
-					<MDBContainer style={container} className="text-center mt-5 pt-5">
-						<h2>Denver Campaign Finance Data Search</h2>
-						<h5>Where does all the money go?</h5>
-						<br />
-						<p>
-							Search here to find out where the campaign dollars are spent to help make you a more informed voter.
-						</p>
-					</MDBContainer>
 				</Router>
 			</div>
 		);
