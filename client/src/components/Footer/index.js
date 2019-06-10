@@ -7,7 +7,7 @@ const Footer = () => {
     <MDBFooter style={bgBlue} className="font-small pt-4 mt-4">
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} | Created by: Lisa and Kristina
+          &copy; {new Date().getFullYear()} | Created by: Kristina and Lisa
         </MDBContainer>
       </div>
     </MDBFooter>
