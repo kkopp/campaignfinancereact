@@ -19,13 +19,13 @@ export default class Card extends Component {
 						>
 							<FrontSide
 								style={{
-									backgroundColor: '#41669d'
+									backgroundColor: '#41669d', color: 'white'
 								}}
 							>
 								<h1>Campaign Contributions</h1>
 								<MDBIcon icon="hand-holding-usd" size="5x" className="white-text m-4" />
 							</FrontSide>
-							<BackSide style={{ backgroundColor: '#175852' }}>What are Campaign Contributions?</BackSide>
+							<BackSide style={{ backgroundColor: '#175852', color: 'white' }}>A campaign contribution is a gift, loan, pledge or advance of money; guarantee or endorsement of a loan; or letter of credit or line of credit made by any person for the purpose of influencing any election.</BackSide>
 						</Flippy>
 					</MDBCol>
 
@@ -41,13 +41,13 @@ export default class Card extends Component {
 						>
 							<FrontSide
 								style={{
-									backgroundColor: '#41669d'
+									backgroundColor: '#41669d', color: 'white'
 								}}
 							>
 								<h1>Campaign Expenditures</h1>
 								<MDBIcon icon="money-check" size="5x" className="white-text m-4" />
 							</FrontSide>
-							<BackSide style={{ backgroundColor: '#175852' }}>What are Campaign Expenditures?</BackSide>
+							<BackSide style={{ backgroundColor: '#175852', color: 'white' }}>A campaign expenditure is the purchase, payment, distribution, loan, advance, deposit or gift of money or anything of value, made by any person for the purpose of influencing an election.</BackSide>
 						</Flippy>
 					</MDBCol>
 
@@ -63,13 +63,13 @@ export default class Card extends Component {
 						>
 							<FrontSide
 								style={{
-									backgroundColor: '#41669d'
+									backgroundColor: '#41669d', color: 'white'
 								}}
 							>
-								<h1>In Kind Contributions</h1>
+								<h1>In-Kind Contributions</h1>
 								<MDBIcon icon="gift" size="5x" className="white-text m-4" />
 							</FrontSide>
-							<BackSide style={{ backgroundColor: '#175852' }}>What are In Kind Contributions?</BackSide>
+							<BackSide style={{ backgroundColor: '#175852', color: 'white' }}>A contribution in-kind is a gift or loan of any item of real or personal property, or any other thing of value, but not including money, made to or for any candidate or committee for the purpose of influencing an election or for the purpose of disseminating newsletters related to the scope of duties of an incumbent.</BackSide>
 						</Flippy>
 					</MDBCol>
 				</MDBRow>

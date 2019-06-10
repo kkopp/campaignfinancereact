@@ -5,12 +5,12 @@ const Jumbotron = () => {
 	return (
 		<MDBContainer className="text-center mt-5 pt-5">
 			<MDBJumbotron>
-				<h2>Denver Campaign Finance Data Search</h2>
-				<h5>Where does all the money go?</h5>
+				<h1>2019 Race for Denver Mayor</h1>
+				<h3>Campaign Contributions and Expenditures</h3>
 				<br />
-				<p>
-					Search here to find out where the campaign dollars are spent to help make you a more informed voter.
-				</p>
+				<h5>
+					Choose a data set below to see contributions and expenditures reported as of June 7, 2019. 
+				</h5>
 			</MDBJumbotron>
 		</MDBContainer>
 	);
