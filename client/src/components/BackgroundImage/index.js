@@ -19,17 +19,17 @@ const BackgroundImage = () => {
         <MDBCarouselInner>
           <MDBCarouselItem itemId="1">
             <MDBView>
-              <img className="bg" alt="dog" />
+              <img className="bg" alt=" " />
             </MDBView>
           </MDBCarouselItem>
           <MDBCarouselItem itemId="2">
             <MDBView>
-              <img className="bg2" alt="Second slide" />
+              <img className="bg2" alt=" " />
             </MDBView>
           </MDBCarouselItem>
           <MDBCarouselItem itemId="3">
             <MDBView>
-              <img className="bg3" alt="Third slide" />
+              <img className="bg3" alt=" " />
             </MDBView>
           </MDBCarouselItem>
         </MDBCarouselInner>
