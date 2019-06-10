@@ -1,20 +1,27 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar';
-import SearchBar from './components/SearchBar';
 import Footer from './components/Footer';
-import BackgroundImage from './components/BackgroundImage';
-import Card from './components/Card';
+import Landing from './pages/Landing';
+import MayorContrib from './pages/MayorContrib';
+import MayorExpend from './pages/MayorExpend';
+import MayorInKind from './pages/MayorInKind';
 
 function App() {
-  return (
-    <div className="App">
-      <BackgroundImage />
-      <NavBar />
-      <SearchBar />
-      <Card />
-      <Footer />
-    </div>
-  );
+	return (
+		<Router>
+			<div>
+				<NavBar />
+				<Switch>
+					<Route exact path="/" component={Landing} />
+					<Route exact path="/Contributions" component={MayorContrib} />
+          <Route exact path="/Expenditures" component={MayorExpend} />
+          <Route exact path="/InKind" component={MayorInKind} />
+				</Switch>
+				<Footer />
+			</div>
+		</Router>
+	);
 }
 
 export default App;
