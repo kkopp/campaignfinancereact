@@ -1,7 +1,7 @@
 import React from "react";
 import {  MDBRow, MDBCol, MDBCard, MDBAvatar, MDBCardBody, MDBIcon } from "mdbreact";
 
-const TeamPage = () => {
+const About = () => {
   return (
     <MDBCard className="my-5 px-5 pb-5 text-center">
         <MDBCardBody>
@@ -13,7 +13,7 @@ const TeamPage = () => {
           </p>
           <MDBRow>
             <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
-              <MDBAvatar
+              <MDBCard
                 tag="img"
                 src="https://avatars2.githubusercontent.com/u/42563514?s=400"
                 className="rounded-circle z-depth-1 img-fluid"
@@ -35,7 +35,7 @@ const TeamPage = () => {
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
-              <MDBAvatar
+              <MDBCard
                 tag="img"
                 src="https://avatars1.githubusercontent.com/u/43078062?s=400"
                 className="rounded-circle z-depth-1 img-fluid"

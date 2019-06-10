@@ -1,7 +1,7 @@
 import React from "react";
-import API from "../routes/API";
-import _ from "underscore";
-import Header from "../components/Header/Header";
+import API from "../utils/api";
+// import _ from "underscore";
+import NavBar from "../components/NavBar";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import Questions from "../components/QuizQuestion/QuizQuestion";
 
@@ -68,10 +68,10 @@ class TakeQuiz extends React.Component {
        
         return (
         <MDBContainer fluid>
-            <Header>
+            <NavBar>
                 <h1 className="display-4">Campaign Finance Quiz</h1>
                 <hr className="my-2" />
-            </Header>
+            </NavBar>
             <MDBRow>
                 
                 <MDBCol md="9">
