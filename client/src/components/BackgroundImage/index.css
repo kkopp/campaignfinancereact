@@ -1,24 +1,39 @@
-body, html {
-    height: 100%;
-    }
-    .bg {
-    background-image: url("./Images/denver-2228783_1920.jpg");
-    height: 60vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
-    .bg2 {
-    background-image: url("./Images/denver-1629600_1920.jpg");
-    height: 60vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
-    .bg3 {
-    background-image: url("./Images/denver-1676475_1920.jpg");
-    height: 60vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
+body,
+html {
+	height: 100%;
+}
+.bg {
+	background-image: url("./Images/denver-2228783_1920.jpg");
+	height: 60vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bg2 {
+	background-image: url("./Images/denver-1629600_1920.jpg");
+	height: 60vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bg3 {
+	background-image: url("./Images/denver-1676475_1920.jpg");
+	height: 60vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bg4 {
+	background-image: url("./Images/larimer-2617495_1920.jpg");
+	height: 60vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bg5 {
+	background-image: url("./Images/union-station-980887_1920.jpg");
+	height: 60vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

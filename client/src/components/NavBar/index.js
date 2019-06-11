@@ -35,12 +35,12 @@ class NavBar extends React.Component {
           <MDBContainer style={container}>
             <MDBNavbar style={bgBlue} dark expand="md" scrolling fixed="top">
               <MDBNavbarBrand to="/">
-                <strong>Denver Campaign Finance Data</strong>
+                <strong>Denver Campaign Data Project</strong>
               </MDBNavbarBrand>
               <MDBNavbarToggler onClick={this.onClick} />
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav right>
-                  <MDBNavItem active>
+                  <MDBNavItem>
                     <MDBNavLink to="/">Home</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>

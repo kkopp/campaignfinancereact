@@ -19,7 +19,7 @@ const About = () => {
           <p className="grey-text w-responsive mx-auto mb-5">
             Millions of dollars are contributed to candidates in Denver elections, but the city does not maintain a campaign-finance database that's easy to search. Rather, the city publishes Excel spreadsheets of this data. For our coding boot camp final project, we set out to create a website that makes it easy for voters to find information about campaign contributions and expenditures. Our goal is to help Denver voters make informed decisions.
           </p>
-          <MDBRow>
+          <MDBRow className="d-flex justify-content-center">
             <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
               <MDBCard
                 tag="img"
@@ -36,7 +36,7 @@ const About = () => {
                 <a href="https://github.com/kkopp" className="p-2 fa-lg">
                   <MDBIcon fab icon="github" className="blue-text" />
                 </a>
-                <a href="#!" className="p-2 fa-lg">
+                <a href="https://www.linkedin.com/in/kristina-kopp-2783a053/" className="p-2 fa-lg">
                   <MDBIcon fab icon="linkedin" className="blue-text" />
                 </a>
               </ul>
@@ -47,7 +47,7 @@ const About = () => {
                 tag="img"
                 src="https://avatars1.githubusercontent.com/u/43078062?s=400"
                 className="rounded-circle z-depth-1 img-fluid"
-                alt="Kristina Kopp"
+                alt="Lisa Jones"
               />
               <h5 className="font-weight-bold mt-4 mb-3">Lisa Jones</h5>
               <p className="text-uppercase blue-text">Web Developer</p>
@@ -61,7 +61,7 @@ const About = () => {
                 >
                   <MDBIcon fab icon="github" className="blue-text" />
                 </a>
-                <a href="#!" className="p-2 fa-lg">
+                <a href="https://www.linkedin.com/in/thatlisajones/" className="p-2 fa-lg">
                   <MDBIcon fab icon="linkedin" className="blue-text" />
                 </a>
               </ul>
