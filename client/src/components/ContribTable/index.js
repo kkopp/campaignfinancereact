@@ -8,19 +8,19 @@ const ContribTable = () => {
         label: 'Date',
         field: 'Date',
         sort: 'asc',
-        width: 150
+        width: 100
       },
       {
         label: 'Campaign Name',
         field: 'Campaign Name',
         sort: 'asc',
-        width: 270
+        width: 100
       },
       {
         label: 'Amount',
         field: 'Amount',
         sort: 'asc',
-        width: 200
+        width: 100
       },
       {
         label: 'Organization',
@@ -32,7 +32,7 @@ const ContribTable = () => {
         label: 'Contributor Last Name',
         field: 'Contributor Last Name',
         sort: 'asc',
-        width: 150
+        width: 100
       },
       {
         label: 'Contributor First Name',
