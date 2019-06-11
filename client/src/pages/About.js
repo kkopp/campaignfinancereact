@@ -1,9 +1,17 @@
-import React from "react";
-import {  MDBRow, MDBCol, MDBCard, MDBAvatar, MDBCardBody, MDBIcon } from "mdbreact";
+import React from 'react';
+import {
+  MDBRow,
+  MDBCol,
+  MDBCard,
+  MDBCardBody,
+  MDBIcon,
+  MDBContainer,
+} from 'mdbreact';
 
 const About = () => {
   return (
-    <MDBCard className="my-5 px-5 pb-5 text-center">
+    <MDBContainer>
+      <MDBCard className="my-5 px-5 pb-5 text-center">
         <MDBCardBody>
           <h2 className="h1-responsive font-weight-bold my-5">
             Denver Campaign Data Project
@@ -31,7 +39,7 @@ const About = () => {
                 <a href="#!" className="p-2 fa-lg">
                   <MDBIcon fab icon="linkedin" className="blue-text" />
                 </a>
-                </ul>
+              </ul>
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
@@ -47,20 +55,22 @@ const About = () => {
                 University of Denver Women's Coding Boot Camp, graduated March 2019.
               </p>
               <ul className="list-unstyled mb-0">
-                <a href="https://github.com/thatlisajones" className="p-2 fa-lg">
+                <a
+                  href="https://github.com/thatlisajones"
+                  className="p-2 fa-lg"
+                >
                   <MDBIcon fab icon="github" className="blue-text" />
                 </a>
                 <a href="#!" className="p-2 fa-lg">
                   <MDBIcon fab icon="linkedin" className="blue-text" />
                 </a>
-                </ul>
+              </ul>
             </MDBCol>
-
-            
           </MDBRow>
         </MDBCardBody>
       </MDBCard>
+    </MDBContainer>
   );
-}
+};
 
 export default About;
