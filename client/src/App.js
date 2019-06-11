@@ -20,9 +20,9 @@ function App () {
           <Route exact path="/Contributions" component={MayorContrib} />
           <Route exact path="/Expenditures" component={MayorExpend} />
           <Route exact path="/InKind" component={MayorInKind} />
-		  <Route exact path="/About" component={About} />
-		  <Route exact path="/Resources" component={Resources} />
-		  <Route exact path="/Quiz" component={TakeQuiz} />
+          <Route exact path="/About" component={About} />
+          <Route exact path="/Resources" component={Resources} />
+          <Route exact path="/Quiz" component={TakeQuiz} />
         </Switch>
         <Footer />
       </div>
