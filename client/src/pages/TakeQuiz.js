@@ -1,5 +1,6 @@
 import React from "react";
-import API from "../utils/api";
+import API from "../utils/API";
+import axios from "axios";
 // import _ from "underscore";
 import NavBar from "../components/NavBar";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
