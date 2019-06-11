@@ -1,3 +1,3 @@
 module.exports = {
-    Contrib: require("./contrib")
+    Quiz: require("./quiz")
   };
